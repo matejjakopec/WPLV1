@@ -1,12 +1,274 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivana Ivanić</title>
+    <title>Matej Jakopec</title>
 </head>
 <body>
-    <h1><?= "Hello LV1 task" ?></h1>
+<nav>
+    <div class="logo"><img src="Logo.png" alt="logo" loading="lazy"></div>
+    <div>
+        <ul class="nav-options">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+    </div>
+    <div class="nav-contact">
+        <a href="">Contact Me</a>
+    </div>
+</nav>
+<main>
+    <section class="landing" id="home">
+        <div>
+            <p class="small-bold">Hey, I am John</p>
+            <p class="large-text">I create <span class="highlight">product design</span> and brand experience</p>
+            <p class="landing-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <div>
+                <a href="" class="button-main" aria-label="Get in touch with Matej">Get In Touch</a>
+            </div>
+        </div>
+        <div class="first-image">
+            <img src="./First.png" alt="headshot" loading="lazy">
+        </div>
+    </section>
+    <section class="skills-page">
+        <div>
+            <p class="small-bold">My Skills</p>
+            <p class="large-text">My Expertise</p>
+        </div>
+        <div class="expertise-tab-container">
+            <div class="expertise-tab">
+                <img src="product-chain 1.png" alt="product" loading="lazy">
+                <p class="tab-main-text">Strategy & Direction</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+            <div class="expertise-tab">
+                <img src="tag 1.png" alt="tag" loading="lazy">
+                <p class="tab-main-text">Branding & Logo</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+            <div class="expertise-tab">
+                <img src="feather-pen 1.png" alt="feather" loading="lazy">
+                <p class="tab-main-text">UI & UX Design</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+            <div class="expertise-tab">
+                <img src="feather-pen 1-1.png" alt="feather" loading="lazy">
+                <p class="tab-main-text">Webflow Development</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about-me" id="about-me">
+        <div class="about-me-img">
+            <img src="About%20Me.png" alt="headshot" loading="lazy">
+        </div>
+        <div>
+            <p class="small-bold">About</p>
+            <p class="large-text">About Me</p>
+            <div class="landing-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</div>
+            <div class="landing-text">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</div>
+        </div>
+    </section>
+    <section class="skills-page" id="portfolio">
+        <div class="portfolio-text-container">
+            <div>
+                <p class="small-bold">Recent Projects</p>
+                <p class="large-text">My Portfolio</p>
+            </div>
+            <div class="portfolio-button-container">
+                <a href="" class="portfolio-button" aria-label="Visit Matej's Dribbble">Visit My Dribbble <i class="fa-solid fa-basketball"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-tab-container">
+            <div class="portfolio-tab">
+                <img src="Image.png" alt="project1" loading="lazy">
+                <div>
+                    <p class="portfolio-tab-title">Ahuse</p>
+                    <p class="portfolio-tab-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <a href="" class="dribble-link" aria-label="View project 1 in Dribbble">View In Dribbble <i class="fa-solid fa-location-arrow"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-tab">
+                <img src="Image-1.png" alt="project2" loading="lazy">
+                <div>
+                    <p class="portfolio-tab-title">Ahuse</p>
+                    <p class="portfolio-tab-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <a href="" class="dribble-link" aria-label="View project 2 in Dribbble">View In Dribbble <i class="fa-solid fa-location-arrow"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-tab">
+                <img src="Image-2.png" alt="project3" loading="lazy">
+                <div>
+                    <p class="portfolio-tab-title">Ahuse</p>
+                    <p class="portfolio-tab-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <a href="" class="dribble-link" aria-label="View project 3 in Dribbble">View In Dribbble <i class="fa-solid fa-location-arrow"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-section" id="testimonials">
+        <div>
+            <p class="small-bold">Clients Feedback</p>
+            <p class="large-text">Customer testimonials</p>
+        </div>
+        <div class="portfolio-tab-container">
+            <div class="testimonials-tab">
+                <div>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                    <div class="testimonials-person">
+                        <img src="Avatar%20Image.png" alt="avatar" class="avatar" loading="lazy">
+                        <div>
+                            <p class="avatar-name">Dianne Russell</p>
+                            <p>Starbucks</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-tab">
+                <div>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                    <div class="testimonials-person">
+                        <img src="Avatar%20Image-1.png" alt="avatar" class="avatar" loading="lazy">
+                        <div>
+                            <p class="avatar-name">Kristin Watson</p>
+                            <p>Louis Vuitton</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-tab">
+                <div>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                    <div class="testimonials-person">
+                        <img src="Avatar%20Image-2.png" alt="avatar" class="avatar" loading="lazy">
+                        <div>
+                            <p class="avatar-name">Kathryn Murphy</p>
+                            <p>McDonald's</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-container" id="contact">
+        <div class="contact-text-container">
+            <p class="small-bold">Get In Touch</p>
+            <p class="large-text">Contact me</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+        <form action="#" method="post">
+            <div class="form-flex">
+                <div class="label-input-cont">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" required aria-label="First Name">
+                </div>
+
+                <div class="label-input-cont">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" required aria-label="Last Name">
+                </div>
+            </div>
+
+            <div class="form-flex">
+                <div class="label-input-cont">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required class="input-margin" aria-label="Email">
+                </div>
+
+                <div class="label-input-cont">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required aria-label="Phone Number">
+                </div>
+            </div>
+
+            <div class="label-flex">
+                <label for="topic">Choose a Topic:</label>
+                <select id="topic" name="topic" required aria-label="Choose a Topic">
+                    <option value="" selected disabled>Select one...</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Billing">Billing</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="label-flex">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="10" required placeholder="Type your message..." aria-label="Message"></textarea>
+            </div>
+
+            <div class="label-flex">
+                <div class="checkbox">
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label for="terms">I accept the terms</label>
+                </div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+</main>
+<footer>
+    <div class="main-footer">
+        <div class="logo footer-logo"><img src="Logo.png" alt="logo" loading="lazy"></div>
+        <div>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="second-footer">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Matej Jakopec</p>
+        <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Cookies Settings</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/d0a99693b0.js" crossorigin="anonymous"></script>
 </body>
 </html>
